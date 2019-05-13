@@ -40,8 +40,6 @@ run react development server
 cd client
 npm start
 ```
-
-Screenshot
-https://raw.githubusercontent.com/vashisth00/inkredo/master/Screenshot-vb.png
+![alt text](https://raw.githubusercontent.com/vashisth00/inkredo/master/Screenshot-vb.png)
 
 Thanks and Regards Vashisth Bhushan :)
