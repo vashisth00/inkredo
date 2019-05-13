@@ -31,7 +31,7 @@
 ### Setup:
 run express backend in seperate terminal
 ```
-cd react-social-network
+cd inkredo
 set PORT=3001 && node server.js
 ```
 
