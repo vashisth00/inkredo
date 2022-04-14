@@ -1,0 +1,180 @@
+{
+    menu: [
+      {
+        category: "Food",
+        subcategoryList: [
+          {
+            subcategory: "Chinese",
+            menuItems: [
+              {
+                containsEgg: true,
+                subcategory: "Chinese",
+                category: "Food",
+                containsMeat: true,
+                name: "Chilli Chicken",
+                imageUrlLow:
+                  "https://firebasestorage.googleapis.com/v0/b/check-in-43e77.appspot.com/o/chilli_chicken_low.jpeg?alt=media&token=8dc2d7b1-5e16-42f9-8d65-2eafd565ffde",
+                imageUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/check-in-43e77.appspot.com/o/Screenshot_1647668064.png?alt=media&token=5b8b0b13-02a6-4e97-81ba-ac7c48c3f751",
+                itemId: "8MkLPGj2PaiF837DqYyM",
+                available: false,
+                description: "Chinese style chilli chicken with soya sauce ",
+                amount: 350,
+              },
+              {
+                category: "Food",
+                containsMeat: false,
+                name: "Hakka Noodles",
+                itemId: "y0NOxFsSTxz6zpNvDVxF",
+                imageUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/check-in-43e77.appspot.com/o/Screenshot_1647668064.png?alt=media&token=5b8b0b13-02a6-4e97-81ba-ac7c48c3f751",
+                available: true,
+                amount: 3000,
+                imageUrlLow: "",
+                description: "Hakka Noodles with veggies",
+                subcategory: "Chinese",
+                containsEgg: false,
+              },
+              {
+                containsMeat: false,
+                name: "Fried Rice",
+                available: true,
+                description: "Chinese style Fried rice with veggies",
+                imageUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/check-in-43e77.appspot.com/o/Screenshot_1647668064.png?alt=media&token=5b8b0b13-02a6-4e97-81ba-ac7c48c3f751",
+                itemId: "zx7ZCPR8hTc5KGHFKTno",
+                imageUrlLow: "",
+                containsEgg: false,
+                amount: 3000,
+                category: "Food",
+                subcategory: "Chinese",
+              },
+            ],
+            imageUrl:
+              "https://firebasestorage.googleapis.com/v0/b/check-in-43e77.appspot.com/o/burger-king.webp?alt=media&token=ebac2eb7-a0ab-4f17-a7f3-f784c36583a4",
+          },
+          {
+            subcategory: "Pizza",
+            menuItems: [
+              {
+                category: "Food",
+                amount: 650,
+                containsMeat: false,
+                restaurantId: "",
+                containsEgg: false,
+                itemId: "lIqWigd6gTtFKu8Ok98y",
+                available: false,
+                description: "Full of vegetables",
+                name: "Veggie Twist",
+                imageUrl: "",
+                subcategory: "Pizza",
+                imageUrlLow: "",
+              },
+            ],
+            imageUrl: "",
+          },
+        ],
+      },
+      {
+        category: "Drinks",
+        subcategoryList: [
+          {
+            subcategory: "Alcoholic",
+            menuItems: [
+              {
+                description: "Johnny Walker",
+                itemId: "AXHntCFOjoeml8oBPXHJ",
+                subcategory: "Alcoholic",
+                category: "Drinks",
+                name: "Red Label",
+                containsMeat: false,
+                available: false,
+                amount: 450,
+                containsEgg: false,
+                imageUrlLow: "",
+                imageUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/check-in-43e77.appspot.com/o/Screenshot_1647668064.png?alt=media&token=5b8b0b13-02a6-4e97-81ba-ac7c48c3f751",
+              },
+              {
+                available: true,
+                amount: 450,
+                description: "Johnny Walker",
+                name: "Red Label",
+                containsMeat: false,
+                containsEgg: false,
+                itemId: "R4ZnftmtxVGqio78uMvn",
+                category: "Drinks",
+                subcategory: "Alcoholic",
+                imageUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/check-in-43e77.appspot.com/o/Screenshot_1647668064.png?alt=media&token=5b8b0b13-02a6-4e97-81ba-ac7c48c3f751",
+                imageUrlLow: "",
+              },
+              {
+                itemId: "WrxgARhuyZTR7SPtipj5",
+                description: "Johnny Walker",
+                containsMeat: true,
+                imageUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/check-in-43e77.appspot.com/o/Screenshot_1647668064.png?alt=media&token=5b8b0b13-02a6-4e97-81ba-ac7c48c3f751",
+                name: "Gold Label",
+                category: "Drinks",
+                imageUrlLow: "",
+                available: false,
+                containsEgg: true,
+                subcategory: "Alcoholic",
+                amount: 650,
+              },
+            ],
+            imageUrl:
+              "https://firebasestorage.googleapis.com/v0/b/check-in-43e77.appspot.com/o/Alcohol.webp?alt=media&token=9568d02a-a03f-4bc9-b7f4-26d3c8a2ec1d",
+          },
+        ],
+      },
+      {
+        category: "miscellaneous",
+        subcategoryList: [
+          {
+            subcategory: "Extras",
+            menuItems: [
+              {
+                containsMeat: false,
+                category: "miscellaneous",
+                itemId: "gNvjEjOazjwGg6hM82EA",
+                containsEgg: false,
+                available: false,
+                imageUrlLow: "",
+                description: "cheesy dip",
+                imageUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/check-in-43e77.appspot.com/o/Screenshot_1647668064.png?alt=media&token=5b8b0b13-02a6-4e97-81ba-ac7c48c3f751",
+                subcategory: "Extras",
+                name: "Cheesy dip",
+                amount: 150,
+              },
+            ],
+            imageUrl:
+              "https://firebasestorage.googleapis.com/v0/b/check-in-43e77.appspot.com/o/extras.webp?alt=media&token=c8b05233-1ac0-4b84-aefa-c3b22d422738",
+          },
+          {
+            subcategory: "Tobacco",
+            menuItems: [
+              {
+                containsMeat: false,
+                imageUrlLow: "",
+                imageUrl:
+                  "https://firebasestorage.googleapis.com/v0/b/check-in-43e77.appspot.com/o/Screenshot_1647668064.png?alt=media&token=5b8b0b13-02a6-4e97-81ba-ac7c48c3f751",
+                amount: 450,
+                available: true,
+                containsEgg: false,
+                subcategory: "Tobacco",
+                name: "Marlboro Advance",
+                itemId: "geH9sOISKqjo6wYgYfwe",
+                category: "miscellaneous",
+                description: "Johnny Walker",
+              },
+            ],
+            imageUrl:
+              "https://firebasestorage.googleapis.com/v0/b/check-in-43e77.appspot.com/o/cigg.jpeg?alt=media&token=b63116f5-6eea-423e-8951-34148596c144",
+          },
+        ],
+      },
+    ],
+  };
